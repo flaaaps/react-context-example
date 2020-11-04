@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import Movie from './Movie';
-import { MovieContext } from './MovieContext';
+import { MovieContext } from '../../context/MovieContext';
 
 const MovieList = () => {
 	const [movies, setMovies] = useContext(MovieContext);

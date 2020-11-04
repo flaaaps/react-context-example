@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import './Nav.css';
-import { MovieContext } from './MovieContext';
-import Movie from './Movie';
+import './style.css';
+import { MovieContext } from '../../context/MovieContext';
+import Movie from '../MovieList/Movie';
 
 const Nav = () => {
 	const [movies, setMovies] = useContext(MovieContext);
